@@ -1,0 +1,11 @@
+prefix=F:/gvxr-build/contrib/assimp-install
+exec_prefix=F:/gvxr-build/contrib/assimp-install/
+libdir=F:/gvxr-build/contrib/assimp-install/lib
+includedir=F:/gvxr-build/contrib/assimp-install/include
+
+Name: Assimp
+Description: Import various well-known 3D model formats in an uniform manner.
+Version: 4.1.0
+Libs: -L${libdir} -lassimp
+Libs.private:  -lz
+Cflags: -I${includedir}
